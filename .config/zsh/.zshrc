@@ -24,3 +24,6 @@ eval "$(atuin init zsh)"
 
 # Starship - Prompt
 eval "$(starship init zsh)"
+
+alias yadml="lazygit -ucd .local/share/yadm/lazygit -w ~ -g .local/share/yadm/repo.git"
+alias code="vscodium"
